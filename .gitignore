@@ -1,0 +1,14 @@
+# Variables de entorno con credenciales
+.env
+.env.local
+.env.*.local
+
+# Carpetas de editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs y archivos temporales
+*.log
+*.tmp

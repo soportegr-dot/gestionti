@@ -1,0 +1,29 @@
+body {
+            background-color: #FAFAFA;
+            color: #1e293b;
+            font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+        }
+        ::-webkit-scrollbar {
+            width: 5px;
+            height: 5px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 9999px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #910048;
+        }
+        .fade-in {
+            animation: fadeIn 0.2s ease-out forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .inst-gradient {
+            background: linear-gradient(90deg, #910048 0%, #141829 100%);
+        }
